@@ -9,22 +9,22 @@ function computerThink() {
 	else{
 		computerChoice = "scissors";
 	}
-};
+}
 function rockPick(){
 	userChoice = "rock";
 	computerThink();
 	results();
 	replay();
-};
+}
 function paperPick() {
 	userChoice = "paper";
 	computerThink();
 	results();
 	replay();
-};
+}
 function scissorsPick() {
 	userChoice = "scissors";
 	computerThink();
 	results();
 	replay();
-};
+}
