@@ -10,4 +10,9 @@ function computerThink() {
 		computerChoice = "scissors";
 	}
 };
-function rockPick
+function rockPick(){
+	userChoice = "rock";
+	computerThink();
+	results();
+	replay
+}
