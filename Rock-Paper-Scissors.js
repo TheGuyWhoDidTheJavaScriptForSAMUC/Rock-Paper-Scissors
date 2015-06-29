@@ -10,18 +10,4 @@ function computerThink() {
 		computerChoice = "scissors";
 	}
 };
-
-function compare(choice1, choice2) {
-	if (choice1 === choice2) {
-	alert("The result is a tie!")
-	}
-	else if (choice1 === "rock") {
-		if (choice2 === "scissors") {
-			alert("You win")
-		}
-		else {
-			alert("You lose")
-		}
-	}
-	
-};
+function rockPick
