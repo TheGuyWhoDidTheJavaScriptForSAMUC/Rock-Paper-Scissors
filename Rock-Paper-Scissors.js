@@ -23,4 +23,5 @@ function compare(choice1, choice2) {
 			alert("You lose")
 		}
 	}
-}
+	
+};
