@@ -34,5 +34,18 @@ function results() {
 	compare(userChoice, computerChoice);
 }
 function compare(choice1, choice2) {
-	if (choice1)
+	if (choice1 === choice2) {
+		alert("The result is a tie!");
+	}
+	else if (choice1 === "rock") {
+		if (choice2 === "scissors") {
+			alert("You Win");
+		}
+		else {
+			alert("You Lose");
+		}
+	}
+	else if (choice1 === "paper") {
+		
+	}
 }
