@@ -72,8 +72,6 @@ function compare(choice1, choice2) {
 		}
 	}
 
-	else if(choice1 === "")
-	}
 }
 
 
