@@ -1,6 +1,6 @@
 function computerThink() {
 	computerChoice = Math.floor(Math.random()*1);
-	if(computerChoice ===1) {
+	if(computerChoice === 1) {
 		computerChoice = "rock";
 	}
 	else if(computerChoice === 0.5){
@@ -27,4 +27,12 @@ function scissorsPick() {
 	computerThink();
 	results();
 	replay();
+}
+function results() {
+	alert("You choose " + userChoice);
+	alert("Computer Choose " + computerChoice);
+	compare(userChoice, computerChoice);
+}
+function compare(choice1, choice2) {
+	if (choice1)
 }
