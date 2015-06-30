@@ -76,7 +76,6 @@ function compare(userChoice, computerChoice) {
 
 
 function results() {
-	alert("You choose " + userChoice);
-	alert("Computer choose " + computerChoice);
-	compare(userChoice, computerChoice);
+	alert("You choose" + userChoice + "      Computer chooses" + computerChoice);
+ 	compare(userChoice, computerChoice);
 }
