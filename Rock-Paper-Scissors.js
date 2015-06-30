@@ -34,12 +34,12 @@ function scissorsPick() {
 	replay();
 }
 
-function compare(userChoice, computerChoice) {
+function compare(choice1, choice2) {
 	if (choice1 === choice2) {
 		alert("It's a tie!");
 	}
-	else if(userChoice === "rock") {
-		if (computerChoice === "scissors") {
+	else if(choice1 === "rock") {
+		if (choice2 === "scissors") {
 			alert("You Win");
 		}
 	}
