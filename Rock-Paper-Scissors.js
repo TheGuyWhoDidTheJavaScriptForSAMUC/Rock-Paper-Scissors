@@ -1,3 +1,5 @@
+var  userChoice = "";
+var computerChoice = "";
 function computerThink() {
 	computerChoice = Math.floor(Math.random()*1);
 	if(computerChoice === 1) {
@@ -46,6 +48,6 @@ function compare(choice1, choice2) {
 		}
 	}
 	else if (choice1 === "paper") {
-		
+
 	}
 }
