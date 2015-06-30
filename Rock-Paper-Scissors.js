@@ -56,7 +56,7 @@ function compare(choice1, choice2) {
 	
 	else if(choice1 === "rock") {
 		if (choice2 === "paper") {
-			alert("You Win");
+			alert("You Lose");
 		}
 	}
 
