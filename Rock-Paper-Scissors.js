@@ -1,62 +1,84 @@
-var  userChoice = "";
 var computerChoice = "";
+var userChoice = "";
 function computerThink() {
-	computerChoice = Math.floor(Math.random()*1);
+	computerChoice = Math.floor(Math.random()*3);
 	if(computerChoice === 1) {
 		computerChoice = "rock";
 	}
-	else if(computerChoice === 0.5){
+	else if(computerChoice === 2) {
 		computerChoice = "paper";
 	}
 	else{
 		computerChoice = "scissors";
 	}
 }
-function rockPick(){
+
+function rockPick() {
 	userChoice = "rock";
 	computerThink();
 	results();
 	replay();
 }
+
 function paperPick() {
 	userChoice = "paper";
 	computerThink();
 	results();
 	replay();
 }
+
 function scissorsPick() {
 	userChoice = "scissors";
 	computerThink();
 	results();
 	replay();
 }
-function results() {
-	alert("You choose " + userChoice);
-	alert("Computer Choose " + computerChoice);
-	compare(userChoice, computerChoice);
-}
-function compare(choice1, choice2) {if (choice1 === choice2) {
-		alert("The result is a tie!");
-	
-	else if (choice1 === "rock") {
+
+function compare(choice1, choice2) {
+	if (choice1 === choice2) {
+		alert("It's a tie!");
+	}
+	else if(choice1 === "rock") {
 		if (choice2 === "scissors") {
 			alert("You Win");
 		}
-		else {
+	}
+	else if(choice1 === "paper") {
+		if (choice2 === "rock") {
+			alert("You Win");
+		}
+	}		
+	else if(choice1 === "scissors") {
+		if (choice2 === "paper") {
+			alert("You Win");
+		}
+	}
+	
+	else if(choice1 === "rock") {
+		if (choice2 === "paper") {
+			alert("You Win");
+		}
+	}
+
+	else if(choice1 === "scissors") {
+		if (choice2 === "rock") {
 			alert("You Lose");
 		}
 	}
-	else if (choice1 === "rock") {
-		if (choice2 === "paper")
-			alert("You lose");
-	}
-		else if (choice1 === "paper"){
-			if (choice2 === "rock")
-				alert("You Win!");
+
+	else if(choice1 === "paper") {
+		if (choice2 === "scissors") {
+			alert("You Lose");
 		}
-	else if (choice1 === "paper") {
-		if (choice2 === "scissors")
-			alert("You lose");
 	}
 
+	else if(choice1 === "")
+	}
+}
+
+
+function results() {
+	alert("You choose " + userChoice);
+	alert("Computer choose " + computerChoice);
+	compare(userChoice, computerChoice);
 }
