@@ -73,9 +73,3 @@ function compare(choice1, choice2) {
 	}
 
 }
-
-
-function results() {
-	alert("You choose" + userChoice + "      Computer chooses" + computerChoice);
- 	compare(userChoice, computerChoice);
-}
