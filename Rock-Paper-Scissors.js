@@ -38,8 +38,8 @@ function compare(choice1, choice2) {
 	if (choice1 === choice2) {
 		alert("It's a tie!");
 	}
-	else if(choice1 === "rock") {
-		if (choice2 === "scissors") {
+	else if(userChoice === "rock") {
+		if (computerThink === "scissors") {
 			alert("You Win");
 		}
 	}
