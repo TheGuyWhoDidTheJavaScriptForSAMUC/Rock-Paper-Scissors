@@ -37,7 +37,7 @@ function results() {
 }
 function compare(choice1, choice2) {if (choice1 === choice2) {
 		alert("The result is a tie!");
-	}
+	
 	else if (choice1 === "rock") {
 		if (choice2 === "scissors") {
 			alert("You Win");
@@ -47,10 +47,16 @@ function compare(choice1, choice2) {if (choice1 === choice2) {
 		}
 	}
 	else if (choice1 === "rock") {
-		if (choice1 === "paper")
+		if (choice2 === "paper")
 			alert("You lose");
-	};
-	else if (choice )
+	}
+		else if (choice1 === "paper"){
+			if (choice2 === "rock")
+				alert("You Win!");
+		}
+	else if (choice1 === "paper") {
+		if (choice2 === "scissors")
+			alert("You lose");
 	}
 
 }
