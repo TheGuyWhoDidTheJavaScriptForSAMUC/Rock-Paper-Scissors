@@ -70,7 +70,7 @@ function compare(choice1, choice2) {
 		if (choice2 === "scissors")
 			alert("You Lose");
 	
-}
+	}
 }
 
 function results() {
