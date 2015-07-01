@@ -50,7 +50,7 @@ function compare(choice1, choice2) {
 	}		
 	else if(choice1 === "scissors") {
 		if (choice2 === "paper") {
-			alert("You Wi!n");
+			alert("You Win");
 		}
 	}
 	
