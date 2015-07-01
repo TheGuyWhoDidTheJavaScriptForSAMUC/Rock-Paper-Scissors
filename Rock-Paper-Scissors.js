@@ -77,6 +77,6 @@ function compare(choice1, choice2) {
 
 function results() {
 	alert("You chose " + userChoice);
-	alert(". Computer chose " + computerChoice + ".");
+	alert("Computer chose " + computerChoice + ".");
 	//This should work, the thing is shortened.	
 }
