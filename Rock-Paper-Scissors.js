@@ -69,10 +69,7 @@ function compare(choice1, choice2) {
 	else if(choice1 === "paper") {
 		if (choice2 === "scissors")
 			alert("You Lose");
-<<<<<<< HEAD
-=======
-	
->>>>>>> origin/master
+
 	}
 }
 
