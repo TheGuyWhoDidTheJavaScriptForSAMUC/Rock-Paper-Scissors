@@ -40,17 +40,17 @@ function compare(choice1, choice2) {
 	}
 	else if(choice1 === "rock") {
 		if (choice2 === "scissors") {
-			alert("You Win");
+			alert("You Win!");
 		}
 	}
 	else if(choice1 === "paper") {
 		if (choice2 === "rock") {
-			alert("You Win");
+			alert("You Win!");
 		}
 	}		
 	else if(choice1 === "scissors") {
 		if (choice2 === "paper") {
-			alert("You Win");
+			alert("You Wi!n");
 		}
 	}
 	
@@ -62,12 +62,12 @@ function compare(choice1, choice2) {
 
 	else if(choice1 === "scissors") {
 		if (choice2 === "rock")
-			alert("You Lose");
+			alert("You Lose.");
 	}
 
 	else if(choice1 === "paper") {
 		if (choice2 === "scissors")
-			alert("You Lose");
+			alert("You Lose.");
 
 	}
 }
