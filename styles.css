@@ -4,9 +4,8 @@ h1 {
 	font-family: "fantasy";
 }
 body {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rock-paper-scissors.svg/2000px-Rock-paper-scissors.svg.png");
-	background-size:300px 300px;
-	background-position: center;
+    background-image: url("http://dlewis.net/nik-archives/wp-content/uploads/2011/10/Rock-Paper-Scissors.jpg");
+	background-position: bottom;
 	background-repeat: no-repeat;
 }
 </style>
