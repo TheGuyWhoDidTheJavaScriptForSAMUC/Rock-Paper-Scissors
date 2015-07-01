@@ -61,9 +61,8 @@ function compare(choice1, choice2) {
 	}
 
 	else if(choice1 === "scissors") {
-		if (choice2 === "rock") {
+		if (choice2 === "rock")
 			alert("You Lose");
-		}
 	}
 
 	else if(choice1 === "paper") {
