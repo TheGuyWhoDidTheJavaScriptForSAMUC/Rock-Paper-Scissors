@@ -1,4 +1,3 @@
-//Add something for when you lose
 var computerChoice = "";
 var userChoice = "";
 function computerThink() {
@@ -62,9 +61,8 @@ function compare(choice1, choice2) {
 	}
 
 	else if(choice1 === "scissors") {
-		if (choice2 === "rock") {
+		if (choice2 === "rock")
 			alert("You Lose");
-		}
 	}
 
 	else if(choice1 === "paper") {
@@ -76,5 +74,5 @@ function compare(choice1, choice2) {
 
 function results() {
 	alert("You chose " + userChoice + ". Computer chose " + computerChoice + ".");
-	compare(userChoice, computerChoice);
+	//This should work, the thing is shortened.	
 }
