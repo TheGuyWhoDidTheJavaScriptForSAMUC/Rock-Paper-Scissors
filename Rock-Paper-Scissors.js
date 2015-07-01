@@ -1,4 +1,3 @@
-//Add something for when you lose
 var computerChoice = "";
 var userChoice = "";
 function computerThink() {
@@ -75,7 +74,7 @@ function compare(choice1, choice2) {
 }
 
 function results() {
-	alert("You chose " + userChoice + ". Computer chose " + computerChoice ".");
-		
+	alert("You chose " + userChoice);
+		alert("Computer chose " + computerChoice);	
 	compare(userChoice, computerChoice);
 }
