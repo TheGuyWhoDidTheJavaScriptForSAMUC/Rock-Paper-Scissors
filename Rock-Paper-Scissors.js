@@ -73,8 +73,8 @@ function compare(choice1, choice2) {
 	}
 }
 
-<!DOCTYPE html>
-<html>
-<body>
-
-<script>
+function results() {
+	alert("You chose " + userChoice);
+		alert( "Computer chose " + computerChoice);
+	compare(userChoice, computerChoice);
+}
