@@ -8,7 +8,7 @@ function computerThink() {
 	else if(computerChoice === 2) {
 		computerChoice = "paper";
 	}
-	else{
+	else {
 		computerChoice = "scissors";
 	}
 }
