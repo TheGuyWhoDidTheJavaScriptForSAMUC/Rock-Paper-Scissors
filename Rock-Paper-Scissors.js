@@ -69,10 +69,15 @@ function compare(choice1, choice2) {
 	else if(choice1 === "paper") {
 		if (choice2 === "scissors")
 			alert("You Lose");
+<<<<<<< HEAD
+=======
+	
+>>>>>>> origin/master
 	}
 }
 
 function results() {
-	alert("You choose " + userChoice + "Computer choose " + computerChoice);
+	alert("You choose " + userChoice)
+	alert ( "Computer choose " + computerChoice);
 	compare(userChoice, computerChoice);
 }
