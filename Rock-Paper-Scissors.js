@@ -1,3 +1,4 @@
+//Add something for when you lose
 var computerChoice = "";
 var userChoice = "";
 function computerThink() {
