@@ -5,7 +5,7 @@ function computerThink() {
 	if(computerChoice === 1) {
 		computerChoice = "rock";
 	}
-	if(computerChoice === 2) {
+	else if(computerChoice === 2) {
 		computerChoice = "paper";
 	}
 	else {
