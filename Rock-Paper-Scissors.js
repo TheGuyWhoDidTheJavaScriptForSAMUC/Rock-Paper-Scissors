@@ -53,7 +53,11 @@ function compare(choice1, choice2) {
 	}		
 	else if(choice1 === "scissors") {
 		if (choice2 === "paper") {
+<<<<<<< HEAD
 			alert("You Win!");
+=======
+			alert("You Win");
+>>>>>>> origin/master
 		}
 	}
 	
@@ -64,18 +68,19 @@ function compare(choice1, choice2) {
 	}
 
 	else if(choice1 === "scissors") {
-		if (choice2 === "rock")
-			alert("You Lose.");
+		if (choice2 === "rock") {
+			alert("You Lose");
+		}
 	}
 
 	else if(choice1 === "paper") {
-		if (choice2 === "scissors")
-			alert("You Lose.");
-
+		if (choice2 === "scissors") {
+			alert("You Lose");
+		}
 	}
 }
 
 function results() {
 	alert("You chose " + userChoice + ". Computer chose " + computerChoice + ".");
-	//This should work, the thing is shortened.	
+	compare(userChoice, computerChoice);	
 }

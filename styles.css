@@ -1,10 +1,16 @@
 <style>
+
 h1 {
-	font-size: 200px;
-	font-family: verdana;
+	font-size=50px;
+	font-face=fantasy;
+	color="blue";
+	
 }
 body {
     background-image: url ("http://ecx.images-amazon.com/images/I/812fkemYe5L.png");
-	background-repeat: repeat-x;
+    background-position:center;
+	background-height:2580px;
+	background-width:1440px;
 }
+
 </style>
