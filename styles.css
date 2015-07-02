@@ -1,16 +1,16 @@
 <style>
 
 h1 {
-	font-size: 50px;
-	font-family: fantasy;
-	color: "green";
+	font-size=50px;
+	font-face=fantasy;
+	color="green";
 	
 }
 body {
-    background-image: url ("http://ecx.images-amazon.com/images/I/812fkemYe5L.png");
-    background-position: center;
-	background-height: 2580px;
-	background-width: 1440px;
+    background-image=url ("http://ecx.images-amazon.com/images/I/812fkemYe5L.png");
+    background-position=center;
+	background-height=2580px;
+	background-width=1440px;
 }
 
 </style>
