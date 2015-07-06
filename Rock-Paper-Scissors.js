@@ -60,21 +60,18 @@ function compare(choice1, choice2) {
 >>>>>>> origin/master
 		}
 	}
-	
 	else if(choice1 === "rock") {
-		if (choice2 === "paper") {
+		if(choice2 === "paper") {
 			alert("You Lose");
 		}
 	}
-
-	else if(choice1 === "scissors") {
-		if (choice2 === "rock") {
-			alert("You Lose");
-		}
-	}
-
 	else if(choice1 === "paper") {
-		if (choice2 === "scissors") {
+		if(choice2 === "scissors") {
+			alert("You Lose");
+		}
+	}
+	else if(choice1 === "scissors") {
+		if(choice2 === "rock") {
 			alert("You Lose");
 		}
 	}
