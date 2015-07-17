@@ -53,11 +53,7 @@ function compare(choice1, choice2) {
 	}		
 	else if(choice1 === "scissors") {
 		if (choice2 === "paper") {
-<<<<<<< HEAD
 			alert("You Win!");
-=======
-			alert("You Win");
->>>>>>> origin/master
 		}
 	}
 	else if(choice1 === "rock") {
